@@ -1,0 +1,61 @@
+#panel, #flip, #panel2, #flip2, #panel3, #flip3, #panel4, #flip4, #panel5, #flip5, #panel6, #flip6, #panel7, #flip7, #panel8, #flip8, #panel9, #panel10, #panel11, #panel12, #panel13, #panel14, #panel15, #panel16, #panel17, #panel18, #panel19, #panel20, #panel21, #panel22, #panel23, #panel24, #panel25, #panel26, #panel27, #panel28, #panel29, #panel30, #panel31, #panel32, #panel33, #panel34, #panel35, #panel36, #panel37, #panel38, #panel39, #panel40, #panel41, #panel42, #panel43, #panel44, #panel45, #panel46, #panel47, #panel48, #panel49, #flip9, #flip10, #flip11, #flip12, #flip13, #flip14, #flip15, #flip16, #flip17, #flip18, #flip19, #flip20, #flip21, #flip22, #flip23, #flip24, #flip25, #flip26, #flip27, #flip28, #flip29, #flip30, #flip31, #flip32, #flip33, #flip34, #flip35, #flip36, #flip37, #flip38, #flip39, #flip40, #flip41, #flip42, #flip43, #flip44, #flip45, #flip46, #flip47, #flip48, #flip49{
+    padding: 10px;
+    max-width: 100%;
+    text-align: left;
+    /* background-color: #ffffff;
+    border: solid 1px #0066ff; */
+    font-size: 16px;
+    border-radius: 9px;
+  }
+
+[id^=flip] {
+  display: flex;
+  justify-content: space-between;
+}
+
+  [id^=flip]:hover {
+    font-size: 17px;
+    font-weight: 500; 
+  }
+  
+  #panel, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8, #panel9, #panel10, #panel11, #panel12, #panel13, #panel14, #panel15, #panel16, #panel17, #panel18, #panel19, #panel20, #panel21, #panel22, #panel23, #panel24, #panel25, #panel26, #panel27, #panel28, #panel29, #panel30, #panel31, #panel32, #panel33, #panel34, #panel35, #panel36, #panel37, #panel38, #panel39, #panel40,
+  #panel41, #panel42, #panel43, #panel44, #panel45, #panel46, #panel47, #panel48, #panel49 {
+    padding: 10px;
+    display: none;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+    background-color: #f7f7f7;
+    border: none;
+    line-height: 37px;
+
+  }
+
+  .Panel {
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-bottom: 9%
+}
+
+.flippanel {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+@media (max-width:1000px) {
+  .Panel {
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-bottom: 9%
+}
+/* .FAQsSection {
+  padding-top: 10% !important;
+} */
+}
+.FAQsSection {
+  padding-top: 170px !important;
+}
+
+.icons {
+  height: 18px;
+}
