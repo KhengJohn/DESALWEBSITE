@@ -1,0 +1,48 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.tags {
+    align-self: center !important;
+    align-items: center;
+}
+.ref-input_box {
+display: flex;
+flex-direction: row;
+}
+.ref-box{
+    box-shadow: 0px 10px 15px -7px rgba(10, 10 , 10, 0.25);
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+    
+}
+.ref-input {
+    width: 90%;
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 03px;
+    border: rgb(114, 114, 114) solid 0.3px;
+}
+
+.btn-ref {
+    border: none;
+    width: max-content;
+    padding: 08px 15px;
+    border-radius: 7px;
+    align-self: center;
+    background-color: blue;
+    color: white !important;
+    margin: 10px;
+    font-size: 17px;
+}
+
+.btn-ref:hover {
+    background-color: white;
+    color:  blue!important;
+     border: 2px solid blue; 
+     transition: 0.2s;
+    
+}
