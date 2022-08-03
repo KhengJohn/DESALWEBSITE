@@ -11,6 +11,9 @@ form {
             display: flex;
             flex-direction: column !important;
             }
+            .contactus-textarea {
+                width: 90% !important;
+            }
 }
 .tags {
     align-self: center !important;
@@ -30,7 +33,7 @@ flex-direction: row;
 .ref-input {
     width: 90%;
     margin: 10px;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px;
     border-radius: 03px;
     border: rgb(114, 114, 114) solid 0.3px;
@@ -54,4 +57,33 @@ flex-direction: row;
      border: 2px solid blue; 
      transition: 0.2s;
     
+}
+
+.contactus-textarea {
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    width: 95%;
+}
+
+.ref-box > h3 {
+    text-align: center;
+    color: #144375 !important;
+}
+
+.contactus-img {
+    width: 100%;
+    height: 100%;
+}
+
+.d-lg-flex-top-margin {
+    margin-top: 0px;
+}
+
+.contactUsSection {
+margin-bottom: 0px!important;
+}
+
+.contactus-hr {
+    margin-bottom: 0!important;
 }
