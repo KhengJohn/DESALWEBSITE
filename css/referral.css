@@ -1,6 +1,9 @@
 form {
     display: flex;
     flex-direction: column;
+    background-color: white;
+    margin-top: 30px;
+    text-align: left;
 }
 @media (max-width:650px) {
     form {
@@ -23,6 +26,8 @@ form {
 display: flex;
 flex-direction: row;
 }
+
+
 .ref-box{
     box-shadow: 0px 10px 15px -7px rgba(10, 10 , 10, 0.25);
     height: max-content;
@@ -31,7 +36,8 @@ flex-direction: row;
     
 }
 .ref-input {
-    width: 90%;
+    width: 95%;
+    margin-top: 0 !important;
     margin: 10px;
     font-size: 18px;
     padding: 10px;
@@ -45,22 +51,24 @@ flex-direction: row;
     padding: 08px 15px;
     border-radius: 7px;
     align-self: center;
-    background-color: blue;
+    background-color: #10408D;
     color: white !important;
     margin: 10px;
-    font-size: 17px;
+    font-size: 20px;
+    border: 2px solid #10408D;
 }
 
 .btn-ref:hover {
     background-color: white;
-    color:  blue!important;
-     border: 2px solid blue; 
+    color:  #10408D!important;
+     border: 2px solid #10408D; 
      transition: 0.2s;
     
 }
 
 .contactus-textarea {
     padding: 10px;
+    margin-top: 0 !important;
     margin: 10px;
     font-size: 18px;
     width: 95%;
@@ -68,7 +76,7 @@ flex-direction: row;
 
 .ref-box > h3 {
     text-align: center;
-    color: #144375 !important;
+    color: #10408D !important;
 }
 
 .contactus-img {
@@ -82,8 +90,16 @@ flex-direction: row;
 
 .contactUsSection {
 margin-bottom: 0px!important;
+background-color: white !important;
 }
 
 .contactus-hr {
     margin-bottom: 0!important;
 }
+
+.label {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 6px;
+ }

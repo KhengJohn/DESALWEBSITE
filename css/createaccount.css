@@ -1,0 +1,56 @@
+body {
+    background-color: #10408D;
+}
+
+.create-acc{
+   border-radius: 20px;
+   padding: 5px;
+}
+
+
+
+.create-acc_logo-div {
+    display: flex;
+    justify-self: center;
+    margin: auto;
+    width:max-content ;
+    margin-bottom: 0!important;
+    padding-bottom: 0!important;
+    background-color: white;
+    border-radius: 20px;
+}
+.create-acc_logo {
+    width: 80px!important;
+    height: 90px !important;
+    margin: 20px;
+    
+}
+
+.create-acc_div {
+    margin-top: 0!important;
+    padding-top: 0!important;
+    
+}
+
+.login-link {
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.login{
+    color: white;
+    text-decoration:underline;
+    text-align: center!important;
+}
+
+.forgot-password{
+    color: white;
+}
+
+.label {
+   margin-bottom: 0;
+   font-weight: 700;
+   font-size: 14px;
+   margin-left: 6px;
+}
