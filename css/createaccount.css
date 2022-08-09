@@ -54,3 +54,8 @@ body {
    font-size: 14px;
    margin-left: 6px;
 }
+
+.ref-box > h4 {
+    text-align: center;
+    color: #10408D !important;
+}
