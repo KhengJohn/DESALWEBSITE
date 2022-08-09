@@ -54,6 +54,13 @@ body {
    font-size: 14px;
    margin-left: 6px;
 }
+.error-message{
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 6px;
+    padding-bottom: 0;
+}
 
 .ref-box > h4 {
     text-align: center;

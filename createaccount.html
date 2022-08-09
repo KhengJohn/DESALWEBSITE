@@ -81,32 +81,38 @@
               <div class=" col-md-10x d-lg-flex jc-c right">
                 <div class="content bg-white create-acc">
            <div class="create-acc_logo-div">
-             <a href="index.html"><img src="img/Logo.png" alt="Logo Image" class="slideanim create-acc_logo"/></a>
+             <a href="index.html"><img src="img/Logo.png" alt="Logo Image" class=" create-acc_logo"/></a>
             </div> <div class="ref-box">
                  <h4 >Create Your Account</h4>
                  <p style="text-align: center;" class="">Create your free DESAL-MCS account </p>
-              <form action="">
+              <form name="myForm" action="" onsubmit="return cAValidation()">
             <div class=" ">
-                <div> <label class="label" for="">Full Name</label>
-                    <input class="ref-input"  type="text" placeholder="Full Name">
+                <div>
+                    <p class="error-message" id="fError" style="color:red ;" for=""></p> 
+                    <label class="label" for="">Full Name</label>
+                    <input class="ref-input" id="fullName"  type="text" placeholder="Full Name">
+                    <p class="error-message" id="eError" style="color:red ;" for=""></p>
                     <label class="label" for="">Email Address</label>
-                    <input class="ref-input"  type="email" placeholder="Email Address">
+                    <input class="ref-input" id="email"  type="email" placeholder="Email Address">
                 </div>
                 <div>
+                    <p class="error-message" id="tError" style="color:red ;" for=""></p>
                     <label class="label" for="">Phone Number</label>
-                    <input class="ref-input"  type="tel" placeholder="Phone Number"> 
+                    <input class="ref-input" id="tel"  type="tel" placeholder="Phone Number"> 
+                    <p class="error-message" id="pError" style="color:red ;" for=""></p>
                     <label class="label" for="">Enter Password</label> 
-                    <input class="ref-input"  type="password" placeholder="Password">
+                    <input class="ref-input" id="password"  type="password">
                 </div>
                 <div>
+                    <p class="error-message" id="cpError" style="color:red ;" for=""></p>
                     <label class="label" for="">Confirm Password</label>
-                    <input class="ref-input"  type="password" placeholder="Confirm Password">
+                    <input class="ref-input" id="cpassword"  type="password" placeholder="Confirm Password">
                     <label class="label" for="">Referrer Code</label>  
                     <input class="ref-input"  type="tel" placeholder="Referrer Code">
                 </div>
                </div> 
                 
-               <input class="btn-ref" type="submit" value="Create Account">
+               <input class="btn-ref"  type="submit" href="#" value="Create Account">
               </form>
             </div>
                 </div>
@@ -188,5 +194,6 @@
   </footer> -->
     <script src="nav.js"></script>
     <script src="Js\animation.js"></script>
+    <script src="Js/main.js"></script>
   </body>
 </html>

@@ -26,8 +26,8 @@ nav{
     text-align: center;
 }
 .logo img {
-    height: 5rem;
-    width: 4rem;
+    height:70px ;
+    width: 60px;
 }
 
 /*Styling Links*/
@@ -198,14 +198,14 @@ nav{
 
 @media (max-width:993px) {
     div .row .img-container .logo img {
-        height:5rem ;
-        width: 5rem;
+        height:70px ;
+        width: 60px;
     }
 }
 
 .logoTop {
-    height:4.4rem !important;
-    width:3.4rem !important;
+    height:70px !important;
+    width:60px!important;
 }
 
 
